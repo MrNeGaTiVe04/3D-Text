@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body translate="no">
+    <canvas width="982" height="290"></canvas>
+  <menu>
+    <form onsubmit="init(event)">
+      <input type="text" id="textInput" maxlength="90" placeholder="Random text">
+      <button>Run</button><br>
+      <button class="active" type="button" onclick="setSpeed(event, 40)">Fast</button>
+      <button type="button" onclick="setSpeed(event, 15)">Slow</button>
+    </form>
+  </menu>
+  <script src="main.js"></script>
+</body>
+</html>
